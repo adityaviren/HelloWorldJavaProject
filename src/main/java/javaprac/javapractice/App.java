@@ -12,10 +12,20 @@ public class App
     	int a=sc.nextInt();
         int b=sc.nextInt();
         add2numbers(a,b);
+        multiply2numbers(a, b);
+        minus2numbers(a, b);
         
     }
     private static void add2numbers(int a,int b) {
     	long sum=a+b;
+    	LOG.info("sum = "+sum);
+    }
+    private static void multiply2numbers(int a,int b) {
+    	long sum=a*b;
+    	LOG.info("sum = "+sum);
+    }
+    private static void minus2numbers(int a,int b) {
+    	long sum=a-b;
     	LOG.info("sum = "+sum);
     }
 }
