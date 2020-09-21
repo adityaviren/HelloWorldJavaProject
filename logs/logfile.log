@@ -1,0 +1,2 @@
+DEBUG | 2020-09-21 09:14:49 | [main] javapractice.App (App.java:10) - Hello World!
+INFO  | 2020-09-21 09:18:42 | [main] javapractice.App (App.java:19) - sum = 7
