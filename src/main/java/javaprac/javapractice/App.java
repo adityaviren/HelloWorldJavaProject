@@ -29,7 +29,7 @@ public class App
     }
     private static void minus2numbers(int a,int b) {
     	long sum=a-b;
-    	LOG.info("sum = "+sum);
+    	LOG.info("minus = "+sum);
     }
     private static void rem2numbers(int a,int b) {
     	long rem=a%b;
